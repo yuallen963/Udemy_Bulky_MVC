@@ -4013,11 +4013,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yuall\\Desktop\\Coding\\Projects\\Udemy\\Udemy_Vidly_MVC\\Bulky\\BulkyWeb\\BulkyWeb.csproj",
+      "projectUniqueName": "C:\\Users\\yuall\\Desktop\\Coding\\Projects\\Udemy\\Udemy_Bulky_MVC\\Bulky\\BulkyWeb\\BulkyWeb.csproj",
       "projectName": "BulkyWeb",
-      "projectPath": "C:\\Users\\yuall\\Desktop\\Coding\\Projects\\Udemy\\Udemy_Vidly_MVC\\Bulky\\BulkyWeb\\BulkyWeb.csproj",
+      "projectPath": "C:\\Users\\yuall\\Desktop\\Coding\\Projects\\Udemy\\Udemy_Bulky_MVC\\Bulky\\BulkyWeb\\BulkyWeb.csproj",
       "packagesPath": "C:\\Users\\yuall\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yuall\\Desktop\\Coding\\Projects\\Udemy\\Udemy_Vidly_MVC\\Bulky\\BulkyWeb\\obj\\",
+      "outputPath": "C:\\Users\\yuall\\Desktop\\Coding\\Projects\\Udemy\\Udemy_Bulky_MVC\\Bulky\\BulkyWeb\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\yuall\\AppData\\Roaming\\NuGet\\NuGet.Config",
