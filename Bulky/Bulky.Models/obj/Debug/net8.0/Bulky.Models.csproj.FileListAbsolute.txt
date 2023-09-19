@@ -10,3 +10,4 @@ C:\Users\yuall\Desktop\Coding\Projects\Udemy\Udemy_Bulky_MVC\Bulky\Bulky.Models\
 C:\Users\yuall\Desktop\Coding\Projects\Udemy\Udemy_Bulky_MVC\Bulky\Bulky.Models\obj\Debug\net8.0\refint\Bulky.Models.dll
 C:\Users\yuall\Desktop\Coding\Projects\Udemy\Udemy_Bulky_MVC\Bulky\Bulky.Models\obj\Debug\net8.0\Bulky.Models.pdb
 C:\Users\yuall\Desktop\Coding\Projects\Udemy\Udemy_Bulky_MVC\Bulky\Bulky.Models\obj\Debug\net8.0\ref\Bulky.Models.dll
+C:\Users\yuall\Desktop\Coding\Projects\Udemy\Udemy_Bulky_MVC\Bulky\Bulky.Models\obj\Debug\net8.0\Bulky.Models.csproj.AssemblyReference.cache

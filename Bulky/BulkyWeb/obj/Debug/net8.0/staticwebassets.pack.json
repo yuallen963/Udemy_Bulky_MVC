@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\yuall\\Desktop\\Coding\\Projects\\Udemy\\Udemy_Bulky_MVC\\Bulky\\BulkyWeb\\wwwroot\\images\\product\\d27d387a-e254-450d-938f-4b72f22e69bb.PNG",
+      "PackagePath": "staticwebassets\\images\\product\\d27d387a-e254-450d-938f-4b72f22e69bb.PNG"
+    },
+    {
       "Id": "C:\\Users\\yuall\\Desktop\\Coding\\Projects\\Udemy\\Udemy_Bulky_MVC\\Bulky\\BulkyWeb\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
