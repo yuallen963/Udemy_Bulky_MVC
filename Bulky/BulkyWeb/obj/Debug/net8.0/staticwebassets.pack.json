@@ -13,8 +13,32 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\yuall\\Desktop\\Coding\\Projects\\Udemy\\Udemy_Bulky_MVC\\Bulky\\BulkyWeb\\wwwroot\\images\\product\\d27d387a-e254-450d-938f-4b72f22e69bb.PNG",
-      "PackagePath": "staticwebassets\\images\\product\\d27d387a-e254-450d-938f-4b72f22e69bb.PNG"
+      "Id": "C:\\Users\\yuall\\Desktop\\Coding\\Projects\\Udemy\\Udemy_Bulky_MVC\\Bulky\\BulkyWeb\\wwwroot\\images\\product\\3d0f5d74-2c85-4dd3-af4c-73565fc3962c.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\3d0f5d74-2c85-4dd3-af4c-73565fc3962c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yuall\\Desktop\\Coding\\Projects\\Udemy\\Udemy_Bulky_MVC\\Bulky\\BulkyWeb\\wwwroot\\images\\product\\640d1f55-58b1-4583-9177-4083bdb92de2.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\640d1f55-58b1-4583-9177-4083bdb92de2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yuall\\Desktop\\Coding\\Projects\\Udemy\\Udemy_Bulky_MVC\\Bulky\\BulkyWeb\\wwwroot\\images\\product\\93fd0e95-e4bb-4bcd-94d7-1ac402fb51f0.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\93fd0e95-e4bb-4bcd-94d7-1ac402fb51f0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yuall\\Desktop\\Coding\\Projects\\Udemy\\Udemy_Bulky_MVC\\Bulky\\BulkyWeb\\wwwroot\\images\\product\\c048d9b7-440e-4c99-bbce-f64c1ec3ca65.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\c048d9b7-440e-4c99-bbce-f64c1ec3ca65.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yuall\\Desktop\\Coding\\Projects\\Udemy\\Udemy_Bulky_MVC\\Bulky\\BulkyWeb\\wwwroot\\images\\product\\d3d45d5f-f2ef-449c-ba0d-93b9c9f94c84.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\d3d45d5f-f2ef-449c-ba0d-93b9c9f94c84.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yuall\\Desktop\\Coding\\Projects\\Udemy\\Udemy_Bulky_MVC\\Bulky\\BulkyWeb\\wwwroot\\images\\product\\daacc9aa-8528-4eb9-ad72-f37f95c05279.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\daacc9aa-8528-4eb9-ad72-f37f95c05279.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yuall\\Desktop\\Coding\\Projects\\Udemy\\Udemy_Bulky_MVC\\Bulky\\BulkyWeb\\wwwroot\\js\\product.js",
+      "PackagePath": "staticwebassets\\js\\product.js"
     },
     {
       "Id": "C:\\Users\\yuall\\Desktop\\Coding\\Projects\\Udemy\\Udemy_Bulky_MVC\\Bulky\\BulkyWeb\\wwwroot\\js\\site.js",

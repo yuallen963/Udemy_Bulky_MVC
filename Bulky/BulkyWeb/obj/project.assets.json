@@ -730,15 +730,31 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Cryptography.Internal/2.2.0": {
+      "Microsoft.AspNetCore.Cryptography.Internal/8.0.0-preview.1.23112.2": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.Internal.dll": {
+          "lib/net8.0/Microsoft.AspNetCore.Cryptography.Internal.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.Internal.dll": {
+          "lib/net8.0/Microsoft.AspNetCore.Cryptography.Internal.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Cryptography.KeyDerivation/8.0.0-preview.1.23112.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Cryptography.Internal": "8.0.0-preview.1.23112.2"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll": {
             "related": ".xml"
           }
         }
@@ -912,6 +928,23 @@
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Identity.EntityFrameworkCore/8.0.0-preview.1.23112.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "8.0.0-preview.1.23111.4",
+          "Microsoft.Extensions.Identity.Stores": "8.0.0-preview.1.23112.2"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll": {
             "related": ".xml"
           }
         }
@@ -1723,7 +1756,7 @@
           }
         }
       },
-      "Microsoft.DotNet.Scaffolding.Shared/8.0.0-preview.7.23408.2": {
+      "Microsoft.DotNet.Scaffolding.Shared/8.0.0-rc.1.23461.3": {
         "type": "package",
         "dependencies": {
           "Humanizer": "2.14.1",
@@ -2002,6 +2035,42 @@
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Extensions.Hosting.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.Identity.Core/8.0.0-preview.1.23112.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Cryptography.KeyDerivation": "8.0.0-preview.1.23112.2",
+          "Microsoft.Extensions.Logging": "8.0.0-preview.1.23110.8",
+          "Microsoft.Extensions.Options": "8.0.0-preview.1.23110.8"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Identity.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Identity.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.Identity.Stores/8.0.0-preview.1.23112.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Caching.Abstractions": "8.0.0-preview.1.23110.8",
+          "Microsoft.Extensions.Identity.Core": "8.0.0-preview.1.23112.2",
+          "Microsoft.Extensions.Logging": "8.0.0-preview.1.23110.8"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Identity.Stores.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Identity.Stores.dll": {
             "related": ".xml"
           }
         }
@@ -2338,11 +2407,11 @@
           }
         }
       },
-      "Microsoft.VisualStudio.Web.CodeGeneration/8.0.0-preview.7.23408.2": {
+      "Microsoft.VisualStudio.Web.CodeGeneration/8.0.0-rc.1.23461.3": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "8.0.0-preview.7.23375.6",
-          "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore": "8.0.0-preview.7.23408.2"
+          "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore": "8.0.0-rc.1.23461.3"
         },
         "compile": {
           "lib/net8.0/Microsoft.VisualStudio.Web.CodeGeneration.dll": {
@@ -2355,11 +2424,11 @@
           }
         }
       },
-      "Microsoft.VisualStudio.Web.CodeGeneration.Core/8.0.0-preview.7.23408.2": {
+      "Microsoft.VisualStudio.Web.CodeGeneration.Core/8.0.0-rc.1.23461.3": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "8.0.0-preview.7.23375.6",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Templating": "8.0.0-preview.7.23408.2",
+          "Microsoft.VisualStudio.Web.CodeGeneration.Templating": "8.0.0-rc.1.23461.3",
           "Newtonsoft.Json": "13.0.1"
         },
         "compile": {
@@ -2373,11 +2442,11 @@
           }
         }
       },
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design/8.0.0-preview.7.23408.2": {
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design/8.0.0-rc.1.23461.3": {
         "type": "package",
         "dependencies": {
-          "Microsoft.DotNet.Scaffolding.Shared": "8.0.0-preview.7.23408.2",
-          "Microsoft.VisualStudio.Web.CodeGenerators.Mvc": "8.0.0-preview.7.23408.2"
+          "Microsoft.DotNet.Scaffolding.Shared": "8.0.0-rc.1.23461.3",
+          "Microsoft.VisualStudio.Web.CodeGenerators.Mvc": "8.0.0-rc.1.23461.3"
         },
         "compile": {
           "lib/net8.0/dotnet-aspnet-codegenerator-design.dll": {
@@ -2390,11 +2459,11 @@
           }
         }
       },
-      "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore/8.0.0-preview.7.23408.2": {
+      "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore/8.0.0-rc.1.23461.3": {
         "type": "package",
         "dependencies": {
-          "Microsoft.DotNet.Scaffolding.Shared": "8.0.0-preview.7.23408.2",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Core": "8.0.0-preview.7.23408.2"
+          "Microsoft.DotNet.Scaffolding.Shared": "8.0.0-rc.1.23461.3",
+          "Microsoft.VisualStudio.Web.CodeGeneration.Core": "8.0.0-rc.1.23461.3"
         },
         "compile": {
           "lib/net8.0/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll": {
@@ -2407,13 +2476,13 @@
           }
         }
       },
-      "Microsoft.VisualStudio.Web.CodeGeneration.Templating/8.0.0-preview.7.23408.2": {
+      "Microsoft.VisualStudio.Web.CodeGeneration.Templating/8.0.0-rc.1.23461.3": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Razor.Language": "6.0.11",
           "Microsoft.CodeAnalysis.CSharp": "4.5.0",
           "Microsoft.CodeAnalysis.Razor": "6.0.11",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Utils": "8.0.0-preview.7.23408.2"
+          "Microsoft.VisualStudio.Web.CodeGeneration.Utils": "8.0.0-rc.1.23461.3"
         },
         "compile": {
           "lib/net8.0/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll": {
@@ -2426,12 +2495,12 @@
           }
         }
       },
-      "Microsoft.VisualStudio.Web.CodeGeneration.Utils/8.0.0-preview.7.23408.2": {
+      "Microsoft.VisualStudio.Web.CodeGeneration.Utils/8.0.0-rc.1.23461.3": {
         "type": "package",
         "dependencies": {
           "Microsoft.Build": "17.6.3",
           "Microsoft.CodeAnalysis.CSharp.Workspaces": "4.5.0",
-          "Microsoft.DotNet.Scaffolding.Shared": "8.0.0-preview.7.23408.2",
+          "Microsoft.DotNet.Scaffolding.Shared": "8.0.0-rc.1.23461.3",
           "Newtonsoft.Json": "13.0.1"
         },
         "compile": {
@@ -2445,11 +2514,11 @@
           }
         }
       },
-      "Microsoft.VisualStudio.Web.CodeGenerators.Mvc/8.0.0-preview.7.23408.2": {
+      "Microsoft.VisualStudio.Web.CodeGenerators.Mvc/8.0.0-rc.1.23461.3": {
         "type": "package",
         "dependencies": {
-          "Microsoft.DotNet.Scaffolding.Shared": "8.0.0-preview.7.23408.2",
-          "Microsoft.VisualStudio.Web.CodeGeneration": "8.0.0-preview.7.23408.2"
+          "Microsoft.DotNet.Scaffolding.Shared": "8.0.0-rc.1.23461.3",
+          "Microsoft.VisualStudio.Web.CodeGeneration": "8.0.0-rc.1.23461.3"
         },
         "compile": {
           "lib/net8.0/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll": {
@@ -4565,6 +4634,7 @@
         "dependencies": {
           "Bulky.Models": "1.0.0",
           "Bulky.Utility": "1.0.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.0-preview.1.23112.2",
           "Microsoft.EntityFrameworkCore": "8.0.0-preview.7.23375.4",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0-preview.7.23375.4"
         },
@@ -5450,17 +5520,42 @@
         "microsoft.aspnetcore.authorization.policy.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Cryptography.Internal/2.2.0": {
-      "sha512": "GXmMD8/vuTLPLvKzKEPz/4vapC5e0cwx1tUVd83ePRyWF9CCrn/pg4/1I+tGkQqFLPvi3nlI2QtPtC6MQN8Nww==",
+    "Microsoft.AspNetCore.Cryptography.Internal/8.0.0-preview.1.23112.2": {
+      "sha512": "ssxhDRLGkWplgn9U5K4qeJvtwfpibhCyeX3/1AvkJXufecljlHwaBLVlWim7DXTYmGD1p4nkZ1HF30/IGrg9Xw==",
       "type": "package",
-      "path": "microsoft.aspnetcore.cryptography.internal/2.2.0",
+      "path": "microsoft.aspnetcore.cryptography.internal/8.0.0-preview.1.23112.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net462/Microsoft.AspNetCore.Cryptography.Internal.dll",
+        "lib/net462/Microsoft.AspNetCore.Cryptography.Internal.xml",
+        "lib/net8.0/Microsoft.AspNetCore.Cryptography.Internal.dll",
+        "lib/net8.0/Microsoft.AspNetCore.Cryptography.Internal.xml",
         "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.Internal.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.Internal.xml",
-        "microsoft.aspnetcore.cryptography.internal.2.2.0.nupkg.sha512",
+        "microsoft.aspnetcore.cryptography.internal.8.0.0-preview.1.23112.2.nupkg.sha512",
         "microsoft.aspnetcore.cryptography.internal.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Cryptography.KeyDerivation/8.0.0-preview.1.23112.2": {
+      "sha512": "oVk+G31joftKE9VcTo7ly1Nm7tPpLtHZEpPNDQRKPN4iRcHewTryNyCHZ40I8WwnX0qFx7MP4Jf+CdasB3pm0g==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.cryptography.keyderivation/8.0.0-preview.1.23112.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net462/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll",
+        "lib/net462/Microsoft.AspNetCore.Cryptography.KeyDerivation.xml",
+        "lib/net8.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll",
+        "lib/net8.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.xml",
+        "microsoft.aspnetcore.cryptography.keyderivation.8.0.0-preview.1.23112.2.nupkg.sha512",
+        "microsoft.aspnetcore.cryptography.keyderivation.nuspec"
       ]
     },
     "Microsoft.AspNetCore.DataProtection/2.2.0": {
@@ -5591,6 +5686,21 @@
         "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.xml",
         "microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
         "microsoft.aspnetcore.http.features.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Identity.EntityFrameworkCore/8.0.0-preview.1.23112.2": {
+      "sha512": "93iPl3uai0ux/RtY1b1RuxeHPU8lyp9uX5JFdWF9/7fAX8L4lj1TzI5qi1VPAImRF0tFBlokx/blkL5NxXSi+A==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.identity.entityframeworkcore/8.0.0-preview.1.23112.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net8.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll",
+        "lib/net8.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.xml",
+        "microsoft.aspnetcore.identity.entityframeworkcore.8.0.0-preview.1.23112.2.nupkg.sha512",
+        "microsoft.aspnetcore.identity.entityframeworkcore.nuspec"
       ]
     },
     "Microsoft.AspNetCore.JsonPatch/2.2.0": {
@@ -6584,10 +6694,10 @@
         "microsoft.diasymreader.nuspec"
       ]
     },
-    "Microsoft.DotNet.Scaffolding.Shared/8.0.0-preview.7.23408.2": {
-      "sha512": "qIpWRbCV9a3g9SsYbBjto9ylMK1QiFhbIkkvH95dlAfLL85dxzD5OV5Kdr6IAQYO8dw2qv3ad89vO2WR9icG3A==",
+    "Microsoft.DotNet.Scaffolding.Shared/8.0.0-rc.1.23461.3": {
+      "sha512": "z1uzDrr6VG/YUp0hSzIEzszj4l8bCe/WigzoeGP0lwwoBhqAg+AcSuYm+eJb/fLSXV5jiITGUPoP9SJ3iPnpzQ==",
       "type": "package",
-      "path": "microsoft.dotnet.scaffolding.shared/8.0.0-preview.7.23408.2",
+      "path": "microsoft.dotnet.scaffolding.shared/8.0.0-rc.1.23461.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -6598,7 +6708,7 @@
         "lib/net7.0/Microsoft.DotNet.Scaffolding.Shared.xml",
         "lib/net8.0/Microsoft.DotNet.Scaffolding.Shared.dll",
         "lib/net8.0/Microsoft.DotNet.Scaffolding.Shared.xml",
-        "microsoft.dotnet.scaffolding.shared.8.0.0-preview.7.23408.2.nupkg.sha512",
+        "microsoft.dotnet.scaffolding.shared.8.0.0-rc.1.23461.3.nupkg.sha512",
         "microsoft.dotnet.scaffolding.shared.nuspec"
       ]
     },
@@ -6917,6 +7027,44 @@
         "lib/netstandard2.0/Microsoft.Extensions.Hosting.Abstractions.xml",
         "microsoft.extensions.hosting.abstractions.2.2.0.nupkg.sha512",
         "microsoft.extensions.hosting.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Identity.Core/8.0.0-preview.1.23112.2": {
+      "sha512": "s22iVfpHETIefmAMaYcsciAQjWxADgqTKmfUewx5a3JPI1RLUs3RF+nzqJLDfinsMbs1NTWFdnm2naKjGQhx2g==",
+      "type": "package",
+      "path": "microsoft.extensions.identity.core/8.0.0-preview.1.23112.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net462/Microsoft.Extensions.Identity.Core.dll",
+        "lib/net462/Microsoft.Extensions.Identity.Core.xml",
+        "lib/net8.0/Microsoft.Extensions.Identity.Core.dll",
+        "lib/net8.0/Microsoft.Extensions.Identity.Core.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Identity.Core.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Identity.Core.xml",
+        "microsoft.extensions.identity.core.8.0.0-preview.1.23112.2.nupkg.sha512",
+        "microsoft.extensions.identity.core.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Identity.Stores/8.0.0-preview.1.23112.2": {
+      "sha512": "7LLkAaEAQRIPq++jEEtgDTd11KgjVIm2iVa7wz3E3YFRL7fN8sEOG3pDU+GLDtU40NlR8bJb3SR7pEcS1ApJ6Q==",
+      "type": "package",
+      "path": "microsoft.extensions.identity.stores/8.0.0-preview.1.23112.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net462/Microsoft.Extensions.Identity.Stores.dll",
+        "lib/net462/Microsoft.Extensions.Identity.Stores.xml",
+        "lib/net8.0/Microsoft.Extensions.Identity.Stores.dll",
+        "lib/net8.0/Microsoft.Extensions.Identity.Stores.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Identity.Stores.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Identity.Stores.xml",
+        "microsoft.extensions.identity.stores.8.0.0-preview.1.23112.2.nupkg.sha512",
+        "microsoft.extensions.identity.stores.nuspec"
       ]
     },
     "Microsoft.Extensions.Localization/2.2.0": {
@@ -7420,38 +7568,38 @@
         "microsoft.sqlserver.server.nuspec"
       ]
     },
-    "Microsoft.VisualStudio.Web.CodeGeneration/8.0.0-preview.7.23408.2": {
-      "sha512": "OgdMbRpOt+spQlTclus25ipGhs8JfEaZgd658ZGFVhy3wSijTGPnnHaS4q10ymPfnwfjiRlSyWoenXCfvBTfHw==",
+    "Microsoft.VisualStudio.Web.CodeGeneration/8.0.0-rc.1.23461.3": {
+      "sha512": "EFY+dz4tKgQJVaYynHfoz6lsI27ZjJ5tyFXrwWx0/4WyEY9c3ySKLjSLpBq7lRGqD2rPwlC8iAHeizPRzypbZQ==",
       "type": "package",
-      "path": "microsoft.visualstudio.web.codegeneration/8.0.0-preview.7.23408.2",
+      "path": "microsoft.visualstudio.web.codegeneration/8.0.0-rc.1.23461.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/net8.0/Microsoft.VisualStudio.Web.CodeGeneration.dll",
         "lib/net8.0/Microsoft.VisualStudio.Web.CodeGeneration.xml",
-        "microsoft.visualstudio.web.codegeneration.8.0.0-preview.7.23408.2.nupkg.sha512",
+        "microsoft.visualstudio.web.codegeneration.8.0.0-rc.1.23461.3.nupkg.sha512",
         "microsoft.visualstudio.web.codegeneration.nuspec"
       ]
     },
-    "Microsoft.VisualStudio.Web.CodeGeneration.Core/8.0.0-preview.7.23408.2": {
-      "sha512": "BAJ8wOoy69R2Pg7lFmv1Hq+N1SEYbYP/ebzAGZ0PRiWe4vPx9Ggi/ah5OH8R76RhOUdl/6xFlyjoEDBcA8b8Fg==",
+    "Microsoft.VisualStudio.Web.CodeGeneration.Core/8.0.0-rc.1.23461.3": {
+      "sha512": "weuFhL3heC3M5TgsmP176nU6rO+jDi06xPN7XegXp3YXBypJszkcKjrhhnYxJbrfgaYakgKFt5p9vBpmpeE+jw==",
       "type": "package",
-      "path": "microsoft.visualstudio.web.codegeneration.core/8.0.0-preview.7.23408.2",
+      "path": "microsoft.visualstudio.web.codegeneration.core/8.0.0-rc.1.23461.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/net8.0/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll",
         "lib/net8.0/Microsoft.VisualStudio.Web.CodeGeneration.Core.xml",
-        "microsoft.visualstudio.web.codegeneration.core.8.0.0-preview.7.23408.2.nupkg.sha512",
+        "microsoft.visualstudio.web.codegeneration.core.8.0.0-rc.1.23461.3.nupkg.sha512",
         "microsoft.visualstudio.web.codegeneration.core.nuspec"
       ]
     },
-    "Microsoft.VisualStudio.Web.CodeGeneration.Design/8.0.0-preview.7.23408.2": {
-      "sha512": "RVVRbK7dyzfrISYw0ROfn1gdwO+TAJ6WPfZn4UlWSTNN65N37PhQPn1OS/Ax62sozynv7aDGh2BS7XpG35nf3A==",
+    "Microsoft.VisualStudio.Web.CodeGeneration.Design/8.0.0-rc.1.23461.3": {
+      "sha512": "NIgnm9RxdIhfBvM5WYPDbEpWmkVGvTybPWXeuWVIwnpTtF1SLTdgVG92NQq+37SEnY2zIU5OqCS8aVnZkNVqhw==",
       "type": "package",
-      "path": "microsoft.visualstudio.web.codegeneration.design/8.0.0-preview.7.23408.2",
+      "path": "microsoft.visualstudio.web.codegeneration.design/8.0.0-rc.1.23461.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -7459,14 +7607,14 @@
         "README.md",
         "lib/net8.0/dotnet-aspnet-codegenerator-design.dll",
         "lib/net8.0/dotnet-aspnet-codegenerator-design.xml",
-        "microsoft.visualstudio.web.codegeneration.design.8.0.0-preview.7.23408.2.nupkg.sha512",
+        "microsoft.visualstudio.web.codegeneration.design.8.0.0-rc.1.23461.3.nupkg.sha512",
         "microsoft.visualstudio.web.codegeneration.design.nuspec"
       ]
     },
-    "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore/8.0.0-preview.7.23408.2": {
-      "sha512": "XAmuoa9+COGoSb4kDzgJzz4V65WfyobWlvNmXoCXzASBOVl00ygKkab4YglAdQYr2Gw12RIySt82cHeU1CAc3A==",
+    "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore/8.0.0-rc.1.23461.3": {
+      "sha512": "7C6uIii5eMi+0s6tvf0V5BT+DCWY10IKKG4UVpFoc5v/2MLMBN5nCW+g6w4NNRtubAZHAP0JjDaMRuR/zfdEkw==",
       "type": "package",
-      "path": "microsoft.visualstudio.web.codegeneration.entityframeworkcore/8.0.0-preview.7.23408.2",
+      "path": "microsoft.visualstudio.web.codegeneration.entityframeworkcore/8.0.0-rc.1.23461.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -7475,42 +7623,42 @@
         "lib/net8.0/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll",
         "lib/net8.0/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.runtimeconfig.json",
         "lib/net8.0/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.xml",
-        "microsoft.visualstudio.web.codegeneration.entityframeworkcore.8.0.0-preview.7.23408.2.nupkg.sha512",
+        "microsoft.visualstudio.web.codegeneration.entityframeworkcore.8.0.0-rc.1.23461.3.nupkg.sha512",
         "microsoft.visualstudio.web.codegeneration.entityframeworkcore.nuspec"
       ]
     },
-    "Microsoft.VisualStudio.Web.CodeGeneration.Templating/8.0.0-preview.7.23408.2": {
-      "sha512": "YU7tS5iBg/LSQd+hSBtv34V/fsTaJ+diWcLaklss0V/8xzzZeV8YJzo2FKy8+TMEOvk5AfSWUwC2VhwMPDqeJw==",
+    "Microsoft.VisualStudio.Web.CodeGeneration.Templating/8.0.0-rc.1.23461.3": {
+      "sha512": "8eQuP5xUcf8UPrheeeJHHgggvOWCdsoitgs4mgXGXUK2OjsVONk6f3jFlvY8+ddYwKqT+gorxpQHAuZTazJUew==",
       "type": "package",
-      "path": "microsoft.visualstudio.web.codegeneration.templating/8.0.0-preview.7.23408.2",
+      "path": "microsoft.visualstudio.web.codegeneration.templating/8.0.0-rc.1.23461.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/net8.0/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll",
         "lib/net8.0/Microsoft.VisualStudio.Web.CodeGeneration.Templating.xml",
-        "microsoft.visualstudio.web.codegeneration.templating.8.0.0-preview.7.23408.2.nupkg.sha512",
+        "microsoft.visualstudio.web.codegeneration.templating.8.0.0-rc.1.23461.3.nupkg.sha512",
         "microsoft.visualstudio.web.codegeneration.templating.nuspec"
       ]
     },
-    "Microsoft.VisualStudio.Web.CodeGeneration.Utils/8.0.0-preview.7.23408.2": {
-      "sha512": "EYNW7Jv4pgw/cMUETtmG2U9O6qkW5wZq4tjBiBRxZp4qLcu3WyDnNWMlSfX2aUwzavhIqxZ8RAOowuu6msHs5g==",
+    "Microsoft.VisualStudio.Web.CodeGeneration.Utils/8.0.0-rc.1.23461.3": {
+      "sha512": "YGJRNpWhsNDqiM8vU4T/3LHMdI0mn2iEkj0FKeLqk1pm9GzvcO9MqzwbOYdBE4uwzheEHLJMKqtQFjGHu/yWdQ==",
       "type": "package",
-      "path": "microsoft.visualstudio.web.codegeneration.utils/8.0.0-preview.7.23408.2",
+      "path": "microsoft.visualstudio.web.codegeneration.utils/8.0.0-rc.1.23461.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/net8.0/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll",
         "lib/net8.0/Microsoft.VisualStudio.Web.CodeGeneration.Utils.xml",
-        "microsoft.visualstudio.web.codegeneration.utils.8.0.0-preview.7.23408.2.nupkg.sha512",
+        "microsoft.visualstudio.web.codegeneration.utils.8.0.0-rc.1.23461.3.nupkg.sha512",
         "microsoft.visualstudio.web.codegeneration.utils.nuspec"
       ]
     },
-    "Microsoft.VisualStudio.Web.CodeGenerators.Mvc/8.0.0-preview.7.23408.2": {
-      "sha512": "GrPhcThfc/uyluLhYmxAIHdaNepUvnaZQ8Z+NeqT+Y3QMyvCrqhFtaO9j2363GYuQYprBnrzJLB9RbmqK/7COA==",
+    "Microsoft.VisualStudio.Web.CodeGenerators.Mvc/8.0.0-rc.1.23461.3": {
+      "sha512": "HsTcMj/4+L38HtLlspwE4iSBPj5Li3aWm1jJkQLxsAAzy5HNg591J3UcWCkokWvKGWrAxRiSyTBVSoOjqFjLzw==",
       "type": "package",
-      "path": "microsoft.visualstudio.web.codegenerators.mvc/8.0.0-preview.7.23408.2",
+      "path": "microsoft.visualstudio.web.codegenerators.mvc/8.0.0-rc.1.23461.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -7967,7 +8115,7 @@
         "lib/net8.0/bootstrap5_identitygeneratorfilesconfig.json",
         "lib/net8.0/identityMinimalHostingChanges.json",
         "lib/net8.0/minimalApiChanges.json",
-        "microsoft.visualstudio.web.codegenerators.mvc.8.0.0-preview.7.23408.2.nupkg.sha512",
+        "microsoft.visualstudio.web.codegenerators.mvc.8.0.0-rc.1.23461.3.nupkg.sha512",
         "microsoft.visualstudio.web.codegenerators.mvc.nuspec"
       ]
     },
@@ -12724,7 +12872,7 @@
       "Microsoft.EntityFrameworkCore >= 8.0.0-preview.7.23375.4",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.0-preview.7.23375.4",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.0-preview.7.23375.4",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.0-preview.7.23408.2"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.0-rc.1.23461.3"
     ]
   },
   "packageFolders": {
@@ -12789,7 +12937,7 @@
           },
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
-            "version": "[8.0.0-preview.7.23408.2, )"
+            "version": "[8.0.0-rc.1.23461.3, )"
           }
         },
         "imports": [

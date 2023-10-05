@@ -1,9 +1,10 @@
 ﻿using Bulky.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace Bulky.DataAccess.Data
 {
-    public class ApplicationDbContext : DbContext
+    public class ApplicationDbContext : IdentityDbContext
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
@@ -11,6 +12,7 @@ namespace Bulky.DataAccess.Data
         }
 
         public DbSet<Category> Categories { get; set; }
+		public DbSet<Product> Products { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -108,7 +110,5 @@ namespace Bulky.DataAccess.Data
 				);
             base.OnModelCreating(modelBuilder);
         }
-
-		public DbSet<Product> Products { get; set; }
 	}
 }

@@ -397,3 +397,4 @@ C:\Users\yuall\Desktop\Coding\Projects\Udemy\Udemy_Bulky_MVC\Bulky\BulkyWeb\bin\
 C:\Users\yuall\Desktop\Coding\Projects\Udemy\Udemy_Bulky_MVC\Bulky\BulkyWeb\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
 C:\Users\yuall\Desktop\Coding\Projects\Udemy\Udemy_Bulky_MVC\Bulky\BulkyWeb\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
 C:\Users\yuall\Desktop\Coding\Projects\Udemy\Udemy_Bulky_MVC\Bulky\BulkyWeb\obj\Debug\net8.0\BulkyWeb.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\yuall\Desktop\Coding\Projects\Udemy\Udemy_Bulky_MVC\Bulky\BulkyWeb\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
