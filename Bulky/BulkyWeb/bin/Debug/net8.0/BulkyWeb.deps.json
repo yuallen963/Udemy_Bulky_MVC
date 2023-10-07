@@ -3039,13 +3039,17 @@
       },
       "Bulky.Models/1.0.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.Mvc.ViewFeatures": "2.2.0"
+          "Microsoft.AspNetCore.Mvc.ViewFeatures": "2.2.0",
+          "Microsoft.Extensions.Identity.Stores": "8.0.0-rc.1.23421.29"
         },
         "runtime": {
           "Bulky.Models.dll": {}
         }
       },
       "Bulky.Utility/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.UI": "8.0.0-rc.1.23421.29"
+        },
         "runtime": {
           "Bulky.Utility.dll": {}
         }

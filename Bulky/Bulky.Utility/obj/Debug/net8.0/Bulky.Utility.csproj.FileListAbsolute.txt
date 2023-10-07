@@ -10,3 +10,4 @@ C:\Users\yuall\Desktop\Coding\Projects\Udemy\Udemy_Bulky_MVC\Bulky\Bulky.Utility
 C:\Users\yuall\Desktop\Coding\Projects\Udemy\Udemy_Bulky_MVC\Bulky\Bulky.Utility\obj\Debug\net8.0\refint\Bulky.Utility.dll
 C:\Users\yuall\Desktop\Coding\Projects\Udemy\Udemy_Bulky_MVC\Bulky\Bulky.Utility\obj\Debug\net8.0\Bulky.Utility.pdb
 C:\Users\yuall\Desktop\Coding\Projects\Udemy\Udemy_Bulky_MVC\Bulky\Bulky.Utility\obj\Debug\net8.0\ref\Bulky.Utility.dll
+C:\Users\yuall\Desktop\Coding\Projects\Udemy\Udemy_Bulky_MVC\Bulky\Bulky.Utility\obj\Debug\net8.0\Bulky.Utility.csproj.AssemblyReference.cache
