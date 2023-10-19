@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yuall\\Desktop\\Coding\\Projects\\Udemy\\Udemy_Bulky_MVC\\Bulky\\Bulky.Utility\\Bulky.Utility.csproj": {}
+    "C:\\Users\\yuall\\OneDrive\\Desktop\\Udemy_Bulky_MVC\\Bulky\\Bulky.Utility\\Bulky.Utility.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yuall\\Desktop\\Coding\\Projects\\Udemy\\Udemy_Bulky_MVC\\Bulky\\Bulky.Utility\\Bulky.Utility.csproj": {
+    "C:\\Users\\yuall\\OneDrive\\Desktop\\Udemy_Bulky_MVC\\Bulky\\Bulky.Utility\\Bulky.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yuall\\Desktop\\Coding\\Projects\\Udemy\\Udemy_Bulky_MVC\\Bulky\\Bulky.Utility\\Bulky.Utility.csproj",
+        "projectUniqueName": "C:\\Users\\yuall\\OneDrive\\Desktop\\Udemy_Bulky_MVC\\Bulky\\Bulky.Utility\\Bulky.Utility.csproj",
         "projectName": "Bulky.Utility",
-        "projectPath": "C:\\Users\\yuall\\Desktop\\Coding\\Projects\\Udemy\\Udemy_Bulky_MVC\\Bulky\\Bulky.Utility\\Bulky.Utility.csproj",
+        "projectPath": "C:\\Users\\yuall\\OneDrive\\Desktop\\Udemy_Bulky_MVC\\Bulky\\Bulky.Utility\\Bulky.Utility.csproj",
         "packagesPath": "C:\\Users\\yuall\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yuall\\Desktop\\Coding\\Projects\\Udemy\\Udemy_Bulky_MVC\\Bulky\\Bulky.Utility\\obj\\",
+        "outputPath": "C:\\Users\\yuall\\OneDrive\\Desktop\\Udemy_Bulky_MVC\\Bulky\\Bulky.Utility\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\yuall\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -34,9 +34,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "default"
         }
       },
       "frameworks": {
@@ -64,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.7.23376.3\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-rc.1.23455.8/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
